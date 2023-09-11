@@ -1,0 +1,13 @@
+@media(min-width:768px){
+    /* ==== common css ==== */
+    .container{
+        margin-left:50px;
+        margin-right:50px;
+    }
+    header .navbar .logo .fa-gem{
+        font-size:38px;
+    }
+    header .navbar .logo h1{
+        font-size:34px;
+    }
+}

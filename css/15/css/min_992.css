@@ -1,0 +1,20 @@
+@media(min-width:992px){
+     /* ==== common css ==== */
+     .container{
+        margin-left:65px;
+        margin-right:65px;
+    }
+    header .navbar .navigation{
+        flex:3;
+        display:flex;
+    }
+    header .navbar .end-nav button{
+        display:none;
+    }
+    header .navbar .search{
+        display:black;
+    }
+    header .navbar .login{
+        display:black;
+    }
+}
