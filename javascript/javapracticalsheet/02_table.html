@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input type="text" name="" id="table_input">
+    <button onclick="meet()">display</button>
+    <div id="display_result"></div>
+</body>
+<script>
+    ("use strict");
+    function meet(){
+    var input=document.getElementById("table_input").value;
+    var result="";
+        for(let i=1;i<=10;i++){
+            result=`${result} <p> ${input} x ${i} = ${input*i} </p>`;
+        }
+        document.getElementById("display_result").innerHTML=result;
+    };
+</script>
+</html>

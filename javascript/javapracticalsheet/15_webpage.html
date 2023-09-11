@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+        }
+        .img img{
+            height: 800px;
+            width: 100%;
+        }
+        .bar .fa-bars{
+            position: fixed;
+            cursor: pointer;
+            color: white;
+            font-size: 30px;
+            margin: 20px 20px;
+        }
+
+        .nav ul{
+            background-color: cadetblue;
+            color: white;
+            position: fixed;
+            left: -125px;
+            top: 20px;
+            display: grid;
+            gap: 20px;
+            padding: 30px;
+            list-style: none;
+            transition: .5s all ease-in-out;
+        }  
+        .nav ul .btn{
+            height: 30px;
+            width: 30px;
+            position: absolute;
+            right: 5px;
+            top: 5px;
+            background-color: black;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+        }
+        .nav-menu ul{
+            background-color: cadetblue;
+            color: white;
+            position: fixed;
+            left: 0px;
+            top: 20px;
+            display: grid;
+            gap: 20px;
+            padding: 30px;
+            list-style: none;
+            transition: .5s all ease-in-out;
+        }  
+        .nav ul .fa-close{
+            font-size: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="bar">
+        <div class="fa-solid fa-bars"></div>
+    </div>
+    <div class="img">
+        <img src="menu.avif" alt="">
+    </div>
+    <div class="nav">
+        <ul>
+            <div class="btn">
+                <div class="fa-solid fa-close"></div>
+            </div>
+            <li>Home</li>
+            <li>About</li>
+            <li>Contact</li>
+            <li>Buy</li>
+            <li>For MOre</li>
+        </ul>
+    </div>
+</body>
+<script>
+    let menubtn=document.querySelector(".fa-bars");
+    let navigation=document.querySelector(".nav");
+    let closebtn=document.querySelector(".fa-close");
+    menubtn.addEventListener("click",function(){
+        navigation.classList.add("nav-menu");
+    })
+    closebtn.addEventListener("click",function(){
+        navigation.classList.remove("nav-menu");
+    })
+    
+</script>
+</html>

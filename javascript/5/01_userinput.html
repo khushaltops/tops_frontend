@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function user_value(){
+            let user = document.getelementById('userval').value;
+
+            document.getElementById("msg").innerhtml=user;
+            return false
+        }
+    </script>
+    
+</head>
+<body>
+    <form action="#">
+        <label for="userval">enter any value:</label>
+        <input type="text" name="user_value" id="userval" >
+        <button onclick="return user_value()">click here</button>
+    </form>
+    <p>you entered : <span id="msg"></span></p>
+</body>
+</html>
