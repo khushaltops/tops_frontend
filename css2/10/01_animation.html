@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .mydiv{
+            height:100px;
+            width:100px;
+            background-color: darkblue;
+            animation: animation1 2s ease 2s  infinite alternate;
+            animation-name: animation1;
+            animation-duration: 1s;
+            animation-timing-function:linear ;
+            animation-delay: 2s;
+            animation-iteration-count: 2;
+            animation-direction: alterbate;
+            animation-fill-mode: backwards;
+            animation-play-state: runnig;
+        }
+        /* create an animation*/
+        @keyframes animation1{
+            from{
+                margin-left:0;
+            }
+            to{
+                margin-left:500px;
+                transform:rotate(360deg) scale(1.1)
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="mydiv"></div>
+</body>
+</html>
