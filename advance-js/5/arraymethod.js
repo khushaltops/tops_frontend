@@ -56,8 +56,9 @@ arr.sort();
 console.log("arr", arr);
 
 */
-let ARR = [1, 2, 3, 4, 5];
-let x = ARR.toSpliced(2, 2);
-console.log("x ", x);
+// let ARR = [1, 2, 3, 4, 5];
+// console.log("ARR",ARR);
+// let data = ARR.splice(2, 2);
+// // console.log("x ", x);
 
-console.log("ARR", ARR);
+// console.log("ARR", ARR);
