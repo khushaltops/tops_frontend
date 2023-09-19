@@ -42,11 +42,11 @@ if (x) {
 */
 
 if (true) {
-  console.log("true called");
+  console.log("true called")
 } else {
-  console.log("false called");
+  console.log("false called")
 }
 
-// condition ? have to do when condition true : have to do when condition false
+// condition ? have to do when condition true : have to do when condition false 
 
-100 === 10 ? console.log(" true ---->") : console.log(" false ---->");
+(100 === 10) ? console.log(" true ---->") : console.log(" false ---->") 
