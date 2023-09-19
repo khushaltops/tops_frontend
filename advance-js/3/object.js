@@ -18,19 +18,19 @@ console.log("->4",obj["name first"])
 */
 
 let obj = {
-    x: "string",
-    bool: true,
-    no: 12,
-    arr: [1, 2, 3],
-    ob: {
-      a: 10,
-    },
-    un: undefined,
-    n: null,
-    fun: function () {
-      console.log("fun of object",this.x);
-    },
-  };
-  
-  
-  obj.fun()
+  x: "string",
+  bool: true,
+  no: 12,
+  arr: [1, 2, 3],
+  ob: {
+    a: 10,
+  },
+  un: undefined,
+  n: null,
+  fun: function () {
+    console.log("fun of object",this.x);
+  },
+};
+
+
+obj.fun()
