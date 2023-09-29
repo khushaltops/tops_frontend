@@ -1,1 +1,2 @@
-console.log("test----" , x , 10 , x+5)
+let x = 10
+console.log("test---->",x,10,x+5)
