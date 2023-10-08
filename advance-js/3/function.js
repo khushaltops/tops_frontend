@@ -1,18 +1,19 @@
-fun1();
-
-function fun1(a, b) {
-  console.log("------fun1----->");
-  return a + b;
+function fun(a, b, c) {
+  console.log("----->")
+  return [1, 2, 2]
 }
 
-// let x = fun1(10, 20);
-// console.log("x:", x);
 
-// fun2() // Cannot access 'fun2' before initialization
-const fun2 = () => {
-  console.log("------fun2----->");
-  return "test";
-};
+let x = fun(1, [1, 2, 3, 3])
 
-// let y = fun2();
-// console.log("y:", y);
+let fun2 = function () {
+
+  console.log("----------------->")
+
+}
+fun2()
+
+const fun3 = (x) => {
+  console.log("---fun3------------>", x)
+}
+fun3(100000)
