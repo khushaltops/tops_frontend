@@ -1,4 +1,6 @@
 let arr = [1, 20, 3, 4, 5, 6, 7, 8, 9, 1];
+
+
 // console.log("--->arr:", arr);
 /*
 // slice(start, end) – creates a new array, copies elements from index start till end (not inclusive) into it.
@@ -55,10 +57,11 @@ console.log("abc", abc);
 arr.sort();
 console.log("arr", arr);
 
-*/
-// let ARR = [1, 2, 3, 4, 5];
-// console.log("ARR",ARR);
-// let data = ARR.splice(2, 2);
-// // console.log("x ", x);
+let ARR = [1, 2, 3, 4, 5];
+console.log("ARR", ARR);
+let data = ARR.toSpliced(1, 2);
+console.log("data ", data);
 
-// console.log("ARR", ARR);
+console.log("ARR", ARR);
+
+*/
