@@ -1,6 +1,6 @@
 import react from "react";
 import reactDOM from "react-dom/client ";
-import FunCom from "./component/functional/FunCom";
+// import FunCom from "./component/functional/FunCom";
 
 obj = {name:'jeel',age:23};
 let x = <h1>hello world</h1>;
